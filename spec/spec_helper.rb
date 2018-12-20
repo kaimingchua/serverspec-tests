@@ -1,7 +1,7 @@
-require 'serverspec'
-require 'net/ssh'
 require 'rubygems'
 require 'bundler/setup'
+require 'serverspec'
+require 'net/ssh'
 
 set :backend, :ssh
 
