@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-            	sh 'sudo yum install -y ruby2.4'
+            	sh 'sudo yum install -y ruby'
                 sh 'sudo gem install serverspec'
                 sh 'gem install rspec'
                 sh 'sudo gem install bundler'
